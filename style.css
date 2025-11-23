@@ -126,8 +126,9 @@ body.dark .dark-toggle {
 .cover-img {
     width: 100%;
     height: clamp(260px, 40vw, 420px);
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
+    background: #000; /* เหมือนหน้า Apple Product Page */
     border-radius: 0 0 25px 25px;
 }
 
